@@ -1,4 +1,4 @@
-FROM python:alpine
+FROM python:3.12.4-alpine3.20
 
 RUN apk update \
     && apk add git ffmpeg flac --no-cache \
